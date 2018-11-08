@@ -1,0 +1,49 @@
+{
+  "name": "authorization-server",
+  "version": "1.0.0",
+  "description": "authorization-server",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuelMijangos07/authorization-server.git"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "connect-ensure-login": "^0.1.x",
+    "connect-mongo": "^1.3.2",
+    "cookie-parser": "^1.3.x",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.x",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "http-proxy": "^1.16.2",
+    "http-status": "^1.0.1",
+    "https": "^1.0.0",
+    "jsonwebtoken": "8.2.1",
+    "mongoose": "5.0.1",
+    "mongoose-unique-validator": "2.0.1",
+    "oauth2orize": "^1.10.0",
+    "passport": "^0.3.x",
+    "passport-http": "^0.3.x",
+    "passport-http-bearer": "^1.0.x",
+    "passport-local": "^1.0.x",
+    "passport-oauth2-client-password": "^0.1.x",
+    "phpass": "^0.1.1",
+    "request-promise": "^4.2.2",
+    "underscore": "1.9.1",
+    "uuid": "^3.0.1"
+  },
+  "scripts": {
+    "lint": "eslint *.js config db test",
+    "start": "node app.js",
+    "test": "mocha test test/db test/config",
+    "test:watch": "npm run test -- --watch",
+    "test:integration": "mocha test/integration"
+  },
+  "author": "manuel mijangos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ManuelMijangos07/authorization-server/issues"
+  },
+  "homepage": "https://github.com/ManuelMijangos07/authorization-server#readme"
+}
