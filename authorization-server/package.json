@@ -31,7 +31,8 @@
     "phpass": "^0.1.1",
     "request-promise": "^4.2.2",
     "underscore": "1.9.1",
-    "uuid": "^3.0.1"
+    "uuid": "^3.0.1",
+    "utils": "file:../utils"
   },
   "scripts": {
     "lint": "eslint *.js config db test",

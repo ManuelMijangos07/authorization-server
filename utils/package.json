@@ -1,0 +1,30 @@
+{
+  "name": "utils",
+  "version": "1.0.0",
+  "description": "Common utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Abner Tellez",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.160.0",
+    "dotenv": "4.0.0",
+    "enum": "2.5.0",
+    "fcm-node": "1.2.1",
+    "gmail-send": "1.2.11",
+    "google-distance-matrix": "1.1.1",
+    "minimist": "1.2.0",
+    "moment-timezone": "0.5.14",
+    "mongoose": "5.0.0",
+    "node-geocoder": "3.21.0",
+    "polyline": "0.2.0",
+    "pug": "2.0.0-rc.4",
+    "query-string": "5.0.1",
+    "request": "2.83.0",
+    "s3": "4.4.0",
+    "twilio": "3.9.2",
+    "underscore": "1.9.1"
+  }
+}
